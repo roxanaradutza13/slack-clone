@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  header div {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  header button {
+    display: flex;
+    align-items: center;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+  }
+  
+  header div h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding: 40px;
+  }
+  .signup-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem;
+  }
+  .signup-email {
+    background-color: #f3eae2;
+    color: #540b51;
+    width: 100%;
+    font-weight: 500;
+    justify-content: center;
+  }
+  
+  header div button span {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .google-button span {
+    display: block;
+    position: absolute;
+    margin-left: 8rem;
+    color: white;
+    font-weight: 500;
+  }
+  
+  header img[alt="Google logo"] {
+    display: block;
+    position: absolute;
+    width: 35px;
+    background: white;
+    margin-left: 1rem;
+  }
+  
+  header img[alt="Slack app screenshot"] {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .span-p {
+    margin-top: -3rem;
+  }
+  
+  .span-p span {
+    color: #ecb12f;
+  }
+  
+  @media (min-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    header button {
+      margin: 1rem;
+      margin-top: -0.7rem;
+      margin-left: -1rem;
+      padding: 20px;
+  
+    }
+  
+    header div h1 {
+      display: flex;
+      text-align: left;
+      font-size: 3.5rem;
+      margin: 1rem;
+      margin-top: -3rem;
+      margin-left: 3rem;
+      margin-right: 2rem;
+    }
+   
+    .signup-buttons {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin: 1rem;
+      margin-left:6rem;
+    }
+   
+    .span-p {
+      font-size: 1.2rem;
+      margin: 1rem;
+      margin-bottom: 2rem;
+      margin-top: -3rem;
+      margin-left: 5.3rem;
+      margin-right: 9rem;
+    }
+    header img[alt="Google logo"] {
+      display: block;
+      position: absolute;
+      width: 35px;
+      background: white;
+      margin: 0.2rem;
+      margin-left: -1rem;
+    }
+  
+    .google-button span {
+      display: block;
+      position: absolute;
+      margin-left: 1.5rem;
+      color: white;
+      font-weight: bolder;
+    }
+    header img[alt="Slack app screenshot"] {
+      width: 75%;
+      margin-top: -4rem;
+      margin-left: -10rem;
+    }
+  }
+  

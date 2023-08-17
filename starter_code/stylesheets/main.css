@@ -1,0 +1,459 @@
+main {
+    background: #f3eae2;
+    padding: 12px;
+  }
+  
+  main p:first-child{
+    margin: 2rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #191817;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .images-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  }
+  
+  .images-main img {
+      display: grid;
+      margin: 1rem;
+      width: 50px;
+  }
+  
+    img[alt="New York Times logo"] {
+      width: 35%;
+      height: auto;
+  } 
+  
+  img[alt="Spotify logo"] {
+      width: 20%;
+      height: auto;
+  } 
+  
+  img[alt="Airbnb logo"]{
+      width:20%;
+      height: auto;
+  }
+  
+  img[alt="connectedness"] {
+      margin-top: 1rem;
+      width: 90%;
+      height: auto;
+      margin-left: -1rem;
+  }
+  
+  main h2 {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin: 1rem;
+      text-align: start;
+      color: #191817;
+  }
+  
+  
+  .main-p1 {
+      padding: 2rem;
+      margin-top: -2rem;
+     margin-left: -1rem;
+     font-weight: 500;
+    
+  }
+  
+  .main-link-1{
+      margin: 1rem;
+      color: #2E71A6;
+  }
+  
+  img[alt="flexibility"]{
+      width: 90%;
+      height: auto;
+      margin-top: 2rem;
+      margin-left: 3rem;
+  }
+  
+  .main-h-2{
+      margin-top: 2rem;
+      margin-right: 4rem;
+  }
+  
+  .main-p2{
+      padding: 2rem;
+      margin-top: -2rem;
+     margin-left: -1rem;
+     font-weight: 500;
+  }
+  
+  .main-link-2 {
+      margin: 1rem;
+      color: #2E71A6;
+  }
+  
+  
+  img[alt="speed"]{
+      width: 90%;
+      height: auto;
+      margin-top: 3rem;
+      margin-left: -1rem;
+  }
+  
+  .main-h-3 {
+     margin-right: 4rem;
+  }
+  
+  
+  .main-p3 {
+      padding: 2rem;
+      margin-top: -2rem;
+     margin-left: -1rem;
+     font-weight: 500;
+  }
+  
+  .main-link-3 {
+      margin: 1rem;
+      color: #2E71A6;
+  }
+  
+  .main-h3-1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #191817;
+      font-size: 24px;
+      margin: 3rem;
+  }
+  
+  .main-p4 {
+      padding: 2rem;
+      margin-top: -4rem;
+     margin-left: -1rem;
+     font-weight: 500;
+     text-align: center;
+  }
+  
+  main button {
+      display: flex;
+      align-items: center;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+      width: 90%;
+      height: 50px;
+  }
+  
+  .button-meet {
+      margin: 1rem;
+      background-color: #540b51;
+      font-weight: bolder;
+      justify-content: center;
+      text-transform: uppercase;
+      color: white;
+  }
+  
+  .button-talk {
+      margin: 1rem;
+      font-weight: bolder;
+      justify-content: center;
+      text-transform: uppercase;
+      color: #540b51;
+      background-color: #f3eae2;
+      border:1px solid #540b51;
+  }
+  
+  main ul {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  main ul li span {
+      color: #540b51;
+     font-size: 2rem;
+     font-weight: bold;
+     margin: 1rem;
+     margin-left: 7rem;
+     margin-top: -1rem;
+  }
+  
+  main ul li p  {
+      display: flex;
+      text-align: center;
+      margin: 1rem;
+      margin-left: 5rem;
+      margin-right: 6rem;
+      margin-top: -3rem;
+      color: #191817;
+      font-weight: bold;
+  
+  }
+  
+  .main-end-section {
+      background: #540b51;
+      color: white;
+      padding: 17px;
+      margin: -1rem;
+      margin-top: 1rem;
+  }
+  
+  .main-end-section h3 {
+      display: flex;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 24px;
+      margin: 3rem;
+  
+  }
+  
+  .main-button-end1{
+    background: #f3eae2;
+    border: 2px solid white;
+    font-weight: bolder;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #540b51;
+    margin: 1rem;
+  }
+  
+  .main-button-end2{
+      background: #540b51;
+      border: 2px solid white;
+      font-weight: bolder;
+      justify-content: center;
+      text-transform: uppercase;
+      color: white;
+      margin: 1rem;
+  }
+  
+  
+  
+  @media (min-width: 768px) {
+   
+      main p:first-child {
+     margin: 2rem;
+      }
+  
+      .images-main{
+          width: 100%;
+      }
+      
+      img[alt="New York Times logo"] {
+      width: 15%;
+    
+  } 
+  img[alt="Spotify logo"] {
+      width: 10%;
+    
+  }
+  
+  img[alt="Airbnb logo"]{
+      width:10%;
+  }
+  img[alt="connectedness"] {
+      width: 30%;
+  
+  }
+  
+  img[alt="flexibility"]{
+      width: 30%;
+      margin-left: 45rem;
+      margin-top: -2rem;
+  }
+  
+  img[alt="speed"]{
+      width: 30%;
+      margin-top: 1rem;
+  }
+  
+  .main-section-1{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin-top: -17rem;
+      margin-left: 25rem;
+      margin-bottom: 4rem; 
+  }
+   
+  .main-section-1 h2 {
+      font-size: 2rem;
+      margin-right: 12rem;
+      margin-left: 11rem;
+  } 
+  
+  .main-p1 {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: center;
+      font-size: 0.9rem;
+      margin-top: -2rem;
+      margin-left: 9rem;
+      margin-right: 6.5rem; 
+      color: #191817;
+  }
+  
+  .main-link-1  {
+      display: flex;
+      font-size: 12px;
+      margin-top: -1.5rem;
+      margin-left: 11rem;
+  }
+  
+  
+   .main-h-2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+   font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 38rem;
+    margin-top: -15rem;
+  }
+  
+  .main-p2{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: center;
+      font-size: 0.9rem;
+      margin-top: -2rem;
+      color: #191817;
+      margin-left: 2rem;
+      margin-right: 39rem;
+  
+  }
+  
+  .main-link-2{
+      display: flex;
+      font-size: 12px;
+      margin-top: -1.5rem;
+      margin-left: 4rem;
+  }
+  
+  .main-h-3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+    font-size: 2rem;
+    margin-left: 35rem;
+    margin-top: -15rem;
+  }
+  
+  .main-p3{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: center;
+      font-size: 0.9rem;
+      margin-top: -2rem;
+      color: #191817;
+      margin-left: 33rem;
+     margin-right: 4rem; 
+  }
+  
+  .main-link-3{
+      display: flex;
+      font-size: 12px;
+      margin-top: -1.5rem;
+      margin-left: 35rem;
+  }
+  
+  .main-h3-1{
+  margin-top: 10rem;
+  font-size: 2rem;
+  }
+  
+  .main-p4{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+  
+  .button-ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 18rem;
+      margin-top: -1rem;
+  }
+  
+  .button-meet{
+  width: 35%;
+  
+  }
+  
+  .button-talk{
+  
+    width: 17.5%;
+  }
+  
+  main ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+  }
+  main ul li span {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      margin-left: -0.8rem;
+      font-size: 3rem
+  }
+  
+  main ul li p {
+      font-weight: bolder;
+      font-size: 0.7rem;
+  }
+  
+  .main-ul-p1{
+      text-align: left;
+      margin-left: 1.4rem;
+      margin-right: 18rem;
+  }
+  
+  .main-ul-p2{
+      margin-right: 12rem;
+      margin-left: 1.3rem;
+      text-align: left;
+  }
+  
+  .main-ul-p3{
+      text-align: left;
+      margin-right: 2rem;
+      margin-left: 1.4rem;
+  }
+  
+  .main-end-section h3 {
+      font-size: 2rem;
+  }
+  
+  .end-buttons{
+      display: flex;
+      align-items: center;
+      margin-left: 21rem;
+      margin-top: -2rem;
+  }
+  
+  .main-button-end1{
+  
+      width: 20%;
+  }
+  
+  .main-button-end2{
+  
+      width: 20%;
+  }
+  
+  }

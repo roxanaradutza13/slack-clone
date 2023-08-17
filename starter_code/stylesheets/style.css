@@ -8,3 +8,28 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body a {
+    text-decoration: none;
+  }
+  body nav {
+    background:  #540B51 ;
+  }
+  
+  body header {
+    background:  #540B51 ;
+  }
+  
+  body main{
+    background:  #f3eae2;
+  }
+  
+  ul{
+    list-style: none;
+  }
